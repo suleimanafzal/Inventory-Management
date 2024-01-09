@@ -26,41 +26,25 @@ Welcome to the Inventory Management System, a full-stack MERN (MongoDB, Express.
 
    ```bash
    git clone https://github.com/suleimanafzal/Inventory-Management.git
-Navigate to the project directory:
+2. Navigate to the project directory:
 
-bash
-Copy code
-cd Inventory-Management
-Install server dependencies:
-
-bash
-Copy code
+ ```bash
+cd Inventory-Management 
+3. Install server dependencies:
 npm install
 Navigate to the client directory:
 
-bash
-Copy code
 cd client
 Install client dependencies:
-
-bash
-Copy code
 npm install
 Go back to the project root:
 
-bash
-Copy code
 cd ..
 Usage
 Start the server:
-
-bash
-Copy code
 npm run server
 Start the client:
 
-bash
-Copy code
 npm run client
 Open your browser and visit http://localhost:3000 to access the application.
 
