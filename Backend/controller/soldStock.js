@@ -4,7 +4,7 @@ const Product = require("../models/Product");
 
 const soldStock = async (productID, stockSoldData) => {
 
-  // Updating sold stock
+
   try {
     
     const myProductData = await Product.findOne({ _id: productID });
